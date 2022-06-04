@@ -1,4 +1,4 @@
-r=float(input())
-p=float(3.14)
-area=float(p*r*r)
-print('{:.2f}'.format(area))
+r=int(input())
+pi=float(3.14)
+a=float(pi*r*r)
+print("%0.2f"%a)
