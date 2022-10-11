@@ -1,11 +1,8 @@
 n=int(input())
-n1=0
-n2=1
-print(n1,end=' ')
-print(n2,end=' ')
-n3=0
+a,b=0,1
+print(a,b,end=" ")
 for i in range(2,n):
-    n3=n2+n1
-    print(n3,end=' ')
-    n1=n2
-    n2=n3
+    c=a+b
+    print(c,end=" ")
+    a=b
+    b=c
