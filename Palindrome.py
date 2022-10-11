@@ -1,11 +1,12 @@
 n=int(input())
-total=0
-q=n
-while(q!=0):
-    r=q%10
-    total=total*10+r
-    q=q//10
-if total==n:
-    print('True')
+s=0
+c=n
+while n:
+    r=n%10
+    s=s*10+r
+    n=n//10
+    
+if(c==s):
+    print(True)
 else:
-    print('False')
+    print(False)
